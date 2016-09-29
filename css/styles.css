@@ -53,24 +53,21 @@ a:hover{
   color: #585858;
   font-family: raleway, sans-serif;
   padding-bottom: 15px;
-  margin-bottom: 50px;
+  margin-bottom: 80px;
 }
 
 .thumbnail {
   height: 175px;
 }
 
-/*.overlay:hover {
-  background-color: rgba(0,0,0,0.3);
-}*/
-
-.listing-title a {
+.listing-title {
   color: #585858;
   font-size: 18px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
+  padding-top: 10px;
 }
-.listing-title a:hover{
+.listing-title a:hover {
 	font-weight:400;
 	text-decoration:none;
 	color: #f2823d;
@@ -81,7 +78,7 @@ a:hover{
   font-size: 14px;
   font-family: 'Raleway', sans-serif;
   font-style:200;
-
+  padding-top: 4px;
 }
 
 p.teaser {
