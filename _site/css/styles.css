@@ -67,7 +67,8 @@ a:hover{
   font-weight: 300;
   padding-top: 10px;
 }
-.listing-title a:hover {
+
+a:hover .listing-title {
 	font-weight:400;
 	text-decoration:none;
 	color: #f2823d;
