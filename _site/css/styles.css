@@ -1,6 +1,20 @@
+.container-fluid {
+  padding-left: 55px;
+  padding-right: 55px;
+}
+
 .nav {
   padding-top: 20px;
   margin-bottom: 50px;
+}
+.logo {
+  padding-top: 30px;
+}
+
+
+.navbar {
+  background-color: white;
+  border: none;
 }
 
 .nav a {
@@ -11,10 +25,19 @@
   text-transform: lowercase;
   font-family: 'Open Sans', sans-serif;
 }
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #f2823d;
+}
+
+.navbar-default .navbar-toggle:hover {
+  background-color: #ddd;
+}
+
 .nav a:hover{
 	font-weight:bold;
 	text-decoration:none;
-	color: #f2823d;
+	color: #f2823d!important;
 }
 
 .nav li {
@@ -32,8 +55,8 @@ p a {
   font-family: 'Open Sans', sans-serif;
 }
 
-a:hover{
-	/*font-weight:bold;*/
+p a:hover {
+  font-weight:bold;
 	text-decoration:none;
 	color: #f2823d;
 }
@@ -88,13 +111,15 @@ p.teaser {
   font-family: 'Raleway', sans-serif;
 }
 
-h3 {
+h3, h4{
   color: #f2823d;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
 }
 
 .post-title {
   color: #f2823d;
-  font-size: 26px;
+  font-size: 28px;
   font-family: 'Open Sans', sans-serif;
   font-weight: 400;
 }
@@ -132,4 +157,8 @@ p.post-content {
   bottom: 0;
   left: 0;
   position: fixed;
+}
+
+a {
+  text-decoration: none!important;
 }
