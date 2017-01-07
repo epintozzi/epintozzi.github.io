@@ -10,7 +10,7 @@ This is the project I've been waiting for! Tuesdates is the first (and only?) so
 ### Why Tuesdates?
 
 {:.post-content}
-Well, because Tuesdays are kind of boring, that's why. Even though I no longer live in Minnesota and rarely see those lovely friends anymore, this project was something we talked about from day one but no one ever really had the time to build. When the opportunity arose for me to choose my own project, I knew it had to However, if I was going to do this, I was going to do it right.
+Well, because Tuesdays are kind of boring, that's why. Even though I no longer live in Minnesota and rarely see those lovely friends anymore, this project was something we talked about from day one but no one ever really had the time to build. When the opportunity arose for me to choose my own project, I knew it had to be Tuesdates. However, if I was going to do this, I was going to do it right.
 
 ### The Plan
 
