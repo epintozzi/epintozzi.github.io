@@ -1,7 +1,7 @@
 ---
 title: Kicking off Tuesdates
 layout: post
-date: 2016-12-27
+date: 2016-12-27 00:00:00 -07:00
 ---
 
 {:.post-content}

@@ -1,7 +1,7 @@
 ---
 title: Project Management Strategies for Developers
 layout: post
-date: 2016-11-07
+date: 2016-11-07 00:00:00 -07:00
 ---
 
 {:.post-content}
