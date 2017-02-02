@@ -49,7 +49,7 @@ a.logo {
   text-transform: lowercase;
 }
 
-p a {
+p a, li a {
   color: #585858;
   font-weight: bold;
   font-family: 'Open Sans', sans-serif;
@@ -59,6 +59,12 @@ p a:hover {
   font-weight:bold;
 	text-decoration:none;
 	color: #f2823d;
+}
+
+p, li {
+  font-size: 16px;
+  color: #585858;
+  font-family: raleway, sans-serif;
 }
 
 .welcome {
@@ -167,4 +173,8 @@ a {
 
 .blog-image {
   width: 100%;
+}
+
+.project-block {
+  padding-bottom: 100px;
 }
