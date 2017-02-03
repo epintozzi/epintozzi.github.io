@@ -55,7 +55,7 @@ p a, li a {
   font-family: 'Open Sans', sans-serif;
 }
 
-p a:hover {
+p a:hover, li a:hover {
   font-weight:bold;
 	text-decoration:none;
 	color: #f2823d;
