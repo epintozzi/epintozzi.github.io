@@ -11,10 +11,10 @@ The purpose of this project was to submit to an open source project to make posi
 To start, I forked the repo and cloned myself a copy (as kindly noted in their CONTRIBUTING.md document). I spent a fair bit of time just clicking through the code. It's a ruby project, not rails, so right off the bat I knew it would take a while longer to get acclimated to what was going on. I can't believe how quickly some of the simple stuff I learned in mod 1 back in August has started to become fuzzy. I'm glad I chose this project to brush up!
 
 {:.post-content}
-Part of the project including confirming or refuting a bug. Great! The issue I chose to work on is from a user who thinks they found a bug. The user is getting an error because they are passing in a data type that the method wasn't handling well, so it's not returning the expected result.
+Part of the project includes confirming or refuting a bug. Great! The issue I chose to work on is from a user who thinks they found a bug. The user is getting an error because they are passing in a data type that the method wasn't handling well, so it's not returning the expected result.
 
 {:.post-content}
-For my assignment, I also need to make a documentation patch. This particular project asks for documentation as a part of PRs, but regardless of the assignment or project specifications, I feel like this is probably a good habit to get in to anyways. Anyways, this project asks for code documentation in line as comments. We've sort of been condidtioned NOT to do that, but it's not my project so I will respect their request.
+For my assignment, I also need to make a documentation patch. This particular project asks for documentation as a part of PRs, but regardless of the assignment or project specifications, I feel like this is probably a good habit to get in to anyways. Anyways, this project asks for code documentation in line as comments. At Turing, we've sort of been condidtioned NOT to do that, but it's not my project so I will respect their request.
 
 {:.post-content}
 Honestly, the hardest part of this project was just starting. I felt very intimidated to touch someone else's project. Am I worthy? Am I good enough? I guess it's time to find out!
