@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Erin Pintozzi</title>
+  <link rel="stylesheet" href="/css/bootstrap.css">
+  <link rel="stylesheet" href="/css/styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400|Raleway:100,200" rel="stylesheet">
+  <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-84803142-1', 'auto');
+  ga('send', 'pageview');
+  </script>
+</head>
+<body>
+  <div class="full-width-header-bar">
+  </div>
+  <nav class="navbar navbar-default">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand logo" href="/">Erin Pintozzi</a>
+      </div>
+
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+
+        <ul class="nav navbar-nav navbar-right">
+          <li><a target="_blank" href="https://www.github.com/epintozzi">Github</a></li>
+          <li><a href="mailto:erin.pintozzi@gmail.com">Email</a></li>
+          <li><a target="_blank" href="https://www.linkedin.com/in/erin-pintozzi">LinkedIn</a></li>
+          <li><a href="/projects.html">Projects</a></li>
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="/js/bootstrap.min.js"></script>
+  <div class="container">
+
+
+<div class="row">
+  <div class="col-md-2">
+  </div>
+  <div class="col-md-8">
+    <h2 class="post-title">My First Open Source PR</h2>
+    <p class="post-date">February 28, 2017</p>
+    <p class="post-content">The purpose of this project was to submit to an open source project to make positive contributions to the programmer community. I chose to contribute to a <a href="https://github.com/epintozzi/gitlab">Gitlab gem</a>. I picked this project for a couple reasons. Primarily, the issues this project had in github seemed both approachable and well described, so I felt that it would something I could do well. Second, I’ve used Gitlab here and there, so I thought it would be a fun discovery to look in to this gem, what it does, and how it works.</p>
+
+<p class="post-content">To start, I forked the repo and cloned myself a copy (as kindly noted in their CONTRIBUTING.md document). I spent a fair bit of time just clicking through the code. It’s a ruby project, not rails, so right off the bat I knew it would take a while longer to get acclimated to what was going on. I can’t believe how quickly some of the simple stuff I learned in mod 1 back in August has started to become fuzzy. I’m glad I chose this project to brush up!</p>
+
+<p class="post-content">Part of the project includes confirming or refuting a bug. Great! The issue I chose to work on is from a user who thinks they found a bug. The user is getting an error because they are passing in a data type that the method wasn’t handling well, so it’s not returning the expected result. After some digging, I can’t reproduce the bug. I think I reproduced the scenario the user described, but I am not getting an error. I posted a comment on the issue with my findings and the details of how I tried to reproduce it. I also asked the user for more details about how they found the problem. Perhaps I just didn’t follow the right path.</p>
+
+<p class="post-content">Since I still need to make a code contribution, I found another issue on this project to update some API endpoints that have been changed in the newest version of the Gitlab API. I played around with the gem in the terminal and found the problem. I did a “search repository” in github to find all the places that needed to be updated for this endpoint and made the change. Unfortunately the tests now were failing. Luckily updating the tests was pretty straightforward, and once everything was passing, I made the official PR.</p>
+
+<p class="post-content">Honestly, the hardest part of this project was just starting. I felt very intimidated to touch someone else’s project. Am I worthy? Am I good enough? I guess it’s time to find out!</p>
+
+<p class="post-content">I made my PR tonight, and I’m hoping for one of two results. The best result, of course, would be that my change is merged. Another great alternative would at least be a comment or conversation so I have the opportunity to make changes and try again with a revision. Worst case, it doesn’t get merged or get a response, but at least I tried. I learned something new, and I’m slowly conquering the age-old imposter syndrome question “Am I good enough?”</p>
+
+  </div>
+  <div class="col-md-2">
+  </div>
+</div>
+
+      </div>
+      <div class="full-width-footer-bar">
+      </div>
+
+  </body>
+</html>
+
