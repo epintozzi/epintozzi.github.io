@@ -1,33 +1,51 @@
 ---
 layout: default
 ---
-<div class="container">
+<div class="content">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-1">
+      </div>
+      <div class="col-md-10">
+        <h2 class="welcome">
+          Erin Pintozzi
+        </h2>
+      </div>
+      <div class="col-md-1">
+      </div>
+    </div>
+  </div>
+
   <div class="row">
     <div class="col-md-1">
     </div>
     <div class="col-md-10">
-      <h2 class="welcome">
-        Hello
-      </h2>
+      <p class="intro">
+        I'm an Interactive Project Manager turned backend developer working for <a target="_blank" href='https://lexicata.com/'>Lexicata</a> in Los Angeles. A Chicago native, I've lived in Milwaukee, Minneapolis, and have found myself in Los Angeles following a 10 month stint in Denver to complete Turing School of Software and Design's backend development program. When I'm not questioning why I've decided to go rogue and start programming, you'll probably find me hanging out with my husband, Joe, and our dogs, Bruce and Tucker, or whipping up a new recipe in the kitchen (I've seen every episode of Chopped, so obviously I'm a pretty great chef myself now).
+      </p>
     </div>
     <div class="col-md-1">
     </div>
   </div>
+
+  <div class="social-icon-list">
+    <a target="_blank" href="/assets/documents/erin_pintozzi_resume.pdf">
+      <img class="social-icon" src="assets/icons/resume.png" alt="">
+    </a>
+    <a target="_blank" href="https://www.github.com/epintozzi">
+      <img class="social-icon" src="assets/icons/github.png" alt="">
+    </a>
+    <a target="_blank" href="https://www.linkedin.com/in/erin-pintozzi">
+      <img class="social-icon" src="assets/icons/linkedin-logo.png" alt="">
+    </a>
+    <a target="_blank" href="mailto:erin.pintozzi@gmail.com">
+      <img class="social-icon email" src="assets/icons/email.png" alt="">
+    </a>
+  </div>
 </div>
 
-<div class="row">
-  <div class="col-md-1">
-  </div>
-  <div class="col-md-10">
-    <p class="intro">
-      I'm an Interactive Project Manager turned developer. A Chicago native, I've lived in Milwaukee, Minneapolis, and have recently found myself in Los Angeles following a 9 month stint in Denver to complete Turing School of Software and Design's backend development program. When I'm not questioning why I've decided to go rogue and learn programming, you'll probably find me hanging out with my husband, Joe, and our dogs, Bruce and Tucker, or whipping up a new recipe in the kitchen (I've seen every episode of Chopped, so obviously I'm a pretty great chef myself now).
-    </p>
-  </div>
-  <div class="col-md-1">
-  </div>
-</div>
 
-<div class="row">
+<!-- <div class="row">
   {% for post in site.posts %}
   {% capture modulo %}{{ forloop.index0 | mod:3 }}{% endcapture %}
 
@@ -41,11 +59,11 @@ layout: default
     <a href="{{ post.url }}">
     <div class="thumbnail">
       <div class="overlay">
-      <h2 class="listing-title">
+      <h2 class="listing-title"> -->
         <!-- <a href="{{ post.url }}"> -->
-          {{ post.title }}
+          <!-- {{ post.title }} -->
         <!-- </a> -->
-      </h2>
+      <!-- </h2>
       <h4 class="listing-date">{{ post.date | date: "%m-%d-%Y" }}</h4>
       <p class="teaser">{{ post.content | strip_html | truncatewords:10}}</p>
     </div>
@@ -53,4 +71,4 @@ layout: default
   </a>
   </div>
   {% endfor %}
-</div>
+</div> -->
