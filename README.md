@@ -1,2 +1,2 @@
-[www.erinpintozzi.com](www.erinpintozzi.com)
+[www.erinpintozzi.com](http://www.erinpintozzi.com)
 
