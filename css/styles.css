@@ -196,7 +196,8 @@ a {
   width: 200px;
   margin-left: auto;
   margin-right: auto;
-  padding-top: 50px;
+  padding-top: 10%;
+  padding-bottom: 35px;
 }
 
 .content {
